@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "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" #this api is disabled
 
 messages = [{"role": "system", "content": "You are a psycologist"}]
 
