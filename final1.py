@@ -1,5 +1,5 @@
 # pip install streamlit langchain lanchain-openai beautifulsoup4 python-dotenv chromadb
-
+# this is the combined code for chat that can answer questions based on on PDF and website
 import streamlit as st
 
 from langchain_core.messages import AIMessage, HumanMessage
