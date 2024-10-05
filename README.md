@@ -69,7 +69,7 @@ To run the Methodist University AI Assistant using Streamlit, follow these steps
 2. **Navigate to the Project Directory**: Open your terminal or command prompt, and navigate to the root directory of the cloned repository:
 
    ```bash
-   cd methodist-university-ai-assistant
+   cd ask-multiple-pdfs-main
    
 3. **Run the Application**: Start the Streamlit app by executing the following command:
 
