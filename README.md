@@ -2,6 +2,13 @@
 
 Welcome to the **Methodist University AI Assistant**, a cutting-edge tool developed to enhance the academic advising experience for students and faculty. This trial version demonstrates how AI can streamline academic processes and provide personalized support.
 
+Built using **Streamlit**, the AI Assistant features an interactive interface that allows students and faculty to engage seamlessly. The assistant processes and retrieves data from academic documents, such as university guidelines and course schedules, by utilizing the **PyPDF2** library for PDF parsing. Advanced natural language processing is powered by **Langchain**'s integration with **OpenAI** and **Hugging Face** models, allowing for highly contextual and conversational interactions.
+
+Crucial libraries like **FAISS** enable fast and efficient searches across embedded documents, while **ConversationalRetrievalChain** ensures the assistant remembers and uses previous context to provide accurate advice and support over the course of interactions.
+
+This system offers data-driven insights into how students behave with the AI assistant versus traditional advising methods, empowering Methodist University to make personalized academic guidance more accessible, efficient, and impactful.
+ 
+
 ## Project Overview
 
 This AI Assistant is designed to offer comprehensive support for academic-related tasks at Methodist University. It simplifies several aspects of the student and faculty experience:
@@ -53,5 +60,22 @@ The AI Assistant integrates seamlessly with the academic framework of Methodist 
 
 This trial version represents just the beginning. Future iterations will incorporate even more advanced features, such as deeper behavioral analytics, improved natural language processing for more human-like interactions, and more robust scheduling tools.
 
-## How to Use
+## How to Start the Application
+
+To run the Methodist University AI Assistant using Streamlit, follow these steps:
+
+1. **Ensure All Dependencies Are Installed**: Before running the application, make sure all required libraries are installed as detailed in the previous sections.
+
+2. **Navigate to the Project Directory**: Open your terminal or command prompt, and navigate to the root directory of the cloned repository:
+
+   ```bash
+   cd methodist-university-ai-assistant
+   
+3. **Run the Application**: Start the Streamlit app by executing the following command:
+
+   ```bash
+   streamlit run app.py
+   
+4. **Access the Application**: Once the application starts, Streamlit will provide a local URL (usually `http://localhost:8501`) in the terminal. Open this URL in your web browser to interact with the AI Assistant.
+
 
